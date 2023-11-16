@@ -42,3 +42,20 @@ class Rectangulo {
   }
 }
 
+// Ejemplo de uso de la clase Rectangulo
+let miRectangulo = new Rectangulo(5, 8);
+
+// Mostrar propiedades iniciales
+miRectangulo.mostrarPropiedades();
+
+// Modificar alto y ancho
+miRectangulo.modificarAlto(7);
+miRectangulo.modificarAncho(10);
+
+// Mostrar propiedades modificadas
+miRectangulo.mostrarPropiedades();
+
+// Calcular y mostrar perímetro y área
+console.log('Perímetro: ' + miRectangulo.calcularPerimetro());
+console.log('Área: ' + miRectangulo.calcularArea());
+
