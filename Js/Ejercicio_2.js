@@ -13,5 +13,16 @@ let cuenta = {
         }
     },
 
+    //extraer
+
+    extraer: function(cantidad){
+        if (cantidad>0 && cantidad<= this.saldo){
+            this.saldo -=cantidad;
+            alert('se extrajeron ' + cantidad + 'Nuevo saldo: ' + this.saldo)
+        }else{
+            alert('la cantidad a eztraer debe ser mayor que cero y no pude superar lo que hay en cuenta disponible')
+        }
+    },
+
     
 }
