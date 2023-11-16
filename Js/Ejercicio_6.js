@@ -6,5 +6,13 @@ class libro {
         this._paginas = paginas;
     }
 
-    
+    //get y set para isbn
+
+    get ISBN(){
+        return this._ISBN;
+    }
+
+    set ISBN(ISBN){
+        this._ISBN=ISBN;
+    }
 }
