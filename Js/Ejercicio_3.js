@@ -56,6 +56,6 @@ miRectangulo.modificarancho(10);
 miRectangulo.mostrarPropiedades();
 
 // Calcular y mostrar perímetro y área
-alert('Perímetro: ' + miRectangulo.calcularPerimetro());
-alert('Área: ' + miRectangulo.calcularArea());
+console.log('Perímetro: ' + miRectangulo.calcularPerimetro());
+console.log('Área: ' + miRectangulo.calcularArea());
 
