@@ -6,4 +6,11 @@ class producto {
         this.nombre = nombre;
         this.precio = precio;
     }
+
+
+imprimedatos(){
+    alert('Código: ' + this.codigo + ', Nombre: ' + this.nombre + ', Precio: ' + this.precio);
 }
+
+}
+
