@@ -25,5 +25,20 @@ class Rectangulo {
             alert('el ancho debe ser mayor que 0');
         }
     }
-    
+
+    // Método para mostrar las propiedades del rectángulo
+  mostrarPropiedades() {
+    console.log('Alto: ' + this.alto + ', Ancho: ' + this.ancho);
+  }
+
+  // Método para calcular el perímetro del rectángulo
+  calcularPerimetro() {
+    return 2 * (this.alto + this.ancho);
+  }
+
+  // Método para calcular el área del rectángulo
+  calcularArea() {
+    return this.alto * this.ancho;
+  }
 }
+
