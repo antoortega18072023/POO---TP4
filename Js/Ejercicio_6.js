@@ -15,4 +15,27 @@ class libro {
     set ISBN(ISBN){
         this._ISBN=ISBN;
     }
+
+    get titulo(){
+        return this._titulo;
+    }
+
+    set titulo(titulo){
+        this._titulo=titulo;
+    }
+
+    get autor(){
+        return this._autor
+    }
+    set autor(autor){
+        this._autor = autor;
+    }
+
+    get paginas(){
+        return this._paginas;
+    }
+
+    set paginas(paginas){
+        this._paginas=paginas
+    }
 }
