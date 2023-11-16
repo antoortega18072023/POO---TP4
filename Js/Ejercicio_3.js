@@ -15,5 +15,15 @@ class Rectangulo {
         }
     }
 
+    //modificar ancho
+
+    modificarancho(nuevoancho){
+        if (nuevoancho>0){
+            this.ancho = nuevoancho;
+            alert('ancho modificado a: ' + this.ancho);
+        }else{
+            alert('el ancho debe ser mayor que 0');
+        }
+    }
     
 }
