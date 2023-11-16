@@ -49,13 +49,13 @@ let miRectangulo = new Rectangulo(5, 8);
 miRectangulo.mostrarPropiedades();
 
 // Modificar alto y ancho
-miRectangulo.modificarAlto(7);
-miRectangulo.modificarAncho(10);
+miRectangulo.modificaralto(7);
+miRectangulo.modificarancho(10);
 
 // Mostrar propiedades modificadas
 miRectangulo.mostrarPropiedades();
 
 // Calcular y mostrar perímetro y área
-console.log('Perímetro: ' + miRectangulo.calcularPerimetro());
-console.log('Área: ' + miRectangulo.calcularArea());
+alert('Perímetro: ' + miRectangulo.calcularPerimetro());
+alert('Área: ' + miRectangulo.calcularArea());
 
